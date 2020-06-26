@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.uploadbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: lightgray;
+  border: 1px dashed black;
+  cursor: pointer;
+  height: 200px;
+  width: 300px;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
